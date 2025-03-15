@@ -1,0 +1,25 @@
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+|                           Oamenii negociază mereu. Asta este conversația. Cineva are ceva, știe ceva. Cineva vrea ceva.                            |
++-------------+-------------+-------+---------+----------------------+-------+-----------+-----------------------------------------------------------+
+|     Text    |    Lemma    |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                         Morphology                        |
++-------------+-------------+-------+---------+----------------------+-------+-----------+-----------------------------------------------------------+
+|   Oamenii   |      om     |  NOUN |  Ncmpry |        nsubj         | Xxxxx |   False   |     Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur     |
+|  negociază  |  negociază  |  VERB |  Vmip3  |         ROOT         |  xxxx |   False   |         Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin         |
+|    mereu    |    mereu    |  ADV  |   Rgp   |        advmod        |  xxxx |    True   |                         Degree=Pos                        |
+|      .      |      .      | PUNCT |  PERIOD |        punct         |   .   |   False   |                                                           |
+|     Asta    |    acesta   |  PRON |  Pd3fsr |        nsubj         |  Xxxx |    True   | Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem |
+|     este    |      fi     |  AUX  |  Vaip3s |         cop          |  xxxx |    True   |   Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   |
+| conversația | conversație |  NOUN |  Ncfsry |         ROOT         |  xxxx |   False   |      Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing     |
+|      .      |      .      | PUNCT |  PERIOD |        punct         |   .   |   False   |                                                           |
+|    Cineva   |    cineva   |  PRON |  Pi3-sr |        nsubj         | Xxxxx |    True   |       Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind      |
+|     are     |     avea    |  AUX  |  Vmip3s |         ROOT         |  xxx  |    True   |   Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   |
+|     ceva    |     ceva    |  PRON |  Pi3-sr |         obj          |  xxxx |    True   |       Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind      |
+|      ,      |      ,      | PUNCT |  COMMA  |        punct         |   ,   |   False   |                                                           |
+|     știe    |     ști     |  AUX  |  Vmip3s |         conj         |  xxxx |   False   |   Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin   |
+|     ceva    |     ceva    |  PRON |  Pi3-sr |         obj          |  xxxx |    True   |       Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind      |
+|      .      |      .      | PUNCT |  PERIOD |        punct         |   .   |   False   |                                                           |
+|    Cineva   |    cineva   |  PRON |  Pi3-sr |        nsubj         | Xxxxx |    True   |       Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind      |
+|     vrea    |     vrea    |  AUX  |  Vmii3s |         ROOT         |  xxxx |   False   |    Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin   |
+|     ceva    |     ceva    |  PRON |  Pi3-sr |         obj          |  xxxx |    True   |       Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind      |
+|      .      |      .      | PUNCT |  PERIOD |        punct         |   .   |   False   |                                                           |
++-------------+-------------+-------+---------+----------------------+-------+-----------+-----------------------------------------------------------+

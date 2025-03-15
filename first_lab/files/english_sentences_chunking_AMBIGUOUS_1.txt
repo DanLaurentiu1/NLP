@@ -1,0 +1,1 @@
+['John', 'told', 'Bill', 'that', 'he', 'should', 'leave', '.']

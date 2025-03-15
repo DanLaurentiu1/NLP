@@ -1,0 +1,18 @@
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                            Oamenii înțelepți citesc cărți despre istorie. Oamenii puternici le scriu.                                           |
++-----------+----------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------------------+
+|    Text   |  Lemma   |  POS  |     POS-Tag     | Syntactic dependency | Shape | Is common |                              Morphology                             |
++-----------+----------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------------------+
+|  Oamenii  |    om    |  NOUN |      Ncmpry     |        nsubj         | Xxxxx |   False   |          Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur          |
+| înțelepți | înțelept |  ADJ  |     Afpmp-n     |         nmod         |  xxxx |   False   |           Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur           |
+|   citesc  |   citi   |  AUX  |      Vmip3p     |         ROOT         |  xxxx |   False   |        Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin        |
+|   cărți   |  carte   |  NOUN |      Ncfp-n     |         obj          |  xxxx |   False   |                 Definite=Ind|Gender=Fem|Number=Plur                 |
+|   despre  |  despre  |  ADP  |       Spsa      |         case         |  xxxx |    True   |                        AdpType=Prep|Case=Acc                        |
+|  istorie  | istorie  |  NOUN |      Ncfsrn     |         nmod         |  xxxx |   False   |           Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing          |
+|     .     |    .     | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                                     |
+|  Oamenii  |    om    |  NOUN |      Ncmpry     |        nsubj         | Xxxxx |   False   |          Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur          |
+| puternici | puternic |  ADJ  |     Afpmp-n     |         amod         |  xxxx |   False   |           Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur           |
+|     le    |    el    |  PRON | Pp3fpa--------w |         obj          |   xx  |    True   | Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs|Strength=Weak |
+|   scriu   |  scrie   |  AUX  |      Vmip3p     |         ROOT         |  xxxx |   False   |        Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin        |
+|     .     |    .     | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                                     |
++-----------+----------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------------------+

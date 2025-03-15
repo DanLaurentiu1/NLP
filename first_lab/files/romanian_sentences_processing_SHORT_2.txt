@@ -1,0 +1,21 @@
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                         Sunt certuri care nu se schimbă. Câini și pisici. Gheață și foc.                                         |
++---------+---------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------+
+|   Text  |  Lemma  |  POS  |     POS-Tag     | Syntactic dependency | Shape | Is common |                        Morphology                       |
++---------+---------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------+
+|   Sunt  |    fi   |  AUX  |      Vaip3p     |         cop          |  Xxxx |    True   |  Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin  |
+| certuri | certură |  NOUN |      Ncfp-n     |         ROOT         |  xxxx |   False   |           Definite=Ind|Gender=Fem|Number=Plur           |
+|   care  |   care  |  PRON |      Pw3--r     |      nsubj:pass      |  xxxx |    True   |          Case=Acc,Nom|Person=3|PronType=Int,Rel         |
+|    nu   |    nu   |  PART |        Qz       |        advmod        |   xx  |    True   |                       Polarity=Neg                      |
+|    se   |   sine  |  PRON | Px3--a--------w |      expl:pass       |   xx  |    True   | Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak |
+| schimbă | schimba |  VERB |      Vmis3s     |         acl          |  xxxx |   False   |  Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin  |
+|    .    |    .    | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                         |
+|  Câini  |  câine  | PROPN |        Np       |         ROOT         | Xxxxx |   False   |                                                         |
+|    și   |    și   | CCONJ |      Crssp      |          cc          |   xx  |    True   |                       Polarity=Pos                      |
+|  pisici |  pisică |  ADJ  |     Afpmp-n     |         conj         |  xxxx |   False   |     Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur     |
+|    .    |    .    | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                         |
+|  Gheață |  gheață |  NOUN |      Ncfsrn     |         ROOT         | Xxxxx |   False   |     Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing    |
+|    și   |    și   | CCONJ |      Crssp      |          cc          |   xx  |    True   |                       Polarity=Pos                      |
+|   foc   |   foc   |  NOUN |      Ncms-n     |         conj         |  xxx  |   False   |           Definite=Ind|Gender=Masc|Number=Sing          |
+|    .    |    .    | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                         |
++---------+---------+-------+-----------------+----------------------+-------+-----------+---------------------------------------------------------+

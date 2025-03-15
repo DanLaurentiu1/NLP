@@ -1,0 +1,33 @@
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                   He is as he always told me to be—a stone amid the waves; wet, yet unimpressed by all that swirls about him.                   |
++-------------+-------------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|     Text    |    Lemma    |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                       Morphology                       |
++-------------+-------------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|      He     |      he     |  PRON |   PRP   |        nsubj         |   Xx  |    True   | Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs |
+|      is     |      be     |  AUX  |   VBZ   |         ROOT         |   xx  |    True   | Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin  |
+|      as     |      as     | SCONJ |    IN   |         mark         |   xx  |    True   |                                                        |
+|      he     |      he     |  PRON |   PRP   |        nsubj         |   xx  |    True   | Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs |
+|    always   |    always   |  ADV  |    RB   |        advmod        |  xxxx |    True   |                                                        |
+|     told    |     tell    |  VERB |   VBD   |        advcl         |  xxxx |   False   |                Tense=Past|VerbForm=Fin                 |
+|      me     |      I      |  PRON |   PRP   |         dobj         |   xx  |    True   |       Case=Acc|Number=Sing|Person=1|PronType=Prs       |
+|      to     |      to     |  PART |    TO   |         aux          |   xx  |    True   |                                                        |
+|      be     |      be     |  AUX  |    VB   |        xcomp         |   xx  |    True   |                      VerbForm=Inf                      |
+|      —      |      —      | PUNCT |    :    |        punct         |   —   |   False   |                                                        |
+|      a      |      a      |  DET  |    DT   |         det          |   x   |    True   |               Definite=Ind|PronType=Art                |
+|    stone    |    stone    |  NOUN |    NN   |         attr         |  xxxx |   False   |                      Number=Sing                       |
+|     amid    |     amid    |  ADP  |    IN   |         prep         |  xxxx |   False   |                                                        |
+|     the     |     the     |  DET  |    DT   |         det          |  xxx  |    True   |               Definite=Def|PronType=Art                |
+|    waves    |     wave    |  NOUN |   NNS   |         pobj         |  xxxx |   False   |                      Number=Plur                       |
+|      ;      |      ;      | PUNCT |    :    |        punct         |   ;   |   False   |                                                        |
+|     wet     |     wet     |  ADJ  |    JJ   |         conj         |  xxx  |   False   |                       Degree=Pos                       |
+|      ,      |      ,      | PUNCT |    ,    |        punct         |   ,   |   False   |                     PunctType=Comm                     |
+|     yet     |     yet     |  ADV  |    RB   |          cc          |  xxx  |    True   |                                                        |
+| unimpressed | unimpressed |  ADJ  |    JJ   |         conj         |  xxxx |   False   |                       Degree=Pos                       |
+|      by     |      by     |  ADP  |    IN   |         prep         |   xx  |    True   |                                                        |
+|     all     |     all     |  DET  |   PDT   |         pobj         |  xxx  |    True   |                                                        |
+|     that    |     that    |  PRON |   WDT   |        nsubj         |  xxxx |    True   |                      PronType=Rel                      |
+|    swirls   |    swirl    |  VERB |   VBZ   |        relcl         |  xxxx |   False   |      Number=Sing|Person=3|Tense=Pres|VerbForm=Fin      |
+|    about    |    about    |  ADP  |    IN   |         prep         |  xxxx |    True   |                                                        |
+|     him     |      he     |  PRON |   PRP   |         pobj         |  xxx  |    True   | Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs |
+|      .      |      .      | PUNCT |    .    |        punct         |   .   |   False   |                     PunctType=Peri                     |
++-------------+-------------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+

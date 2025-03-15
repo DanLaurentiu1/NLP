@@ -1,0 +1,16 @@
++-----------------------------------------------------------------------------------------------------+
+|                              Love and war. Same coin. Different sides.                              |
++-----------+-----------+-------+---------+----------------------+-------+-----------+----------------+
+|    Text   |   Lemma   |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |   Morphology   |
++-----------+-----------+-------+---------+----------------------+-------+-----------+----------------+
+|    Love   |    love   |  NOUN |    NN   |         ROOT         |  Xxxx |   False   |  Number=Sing   |
+|    and    |    and    | CCONJ |    CC   |          cc          |  xxx  |    True   |  ConjType=Cmp  |
+|    war    |    war    |  NOUN |    NN   |         conj         |  xxx  |   False   |  Number=Sing   |
+|     .     |     .     | PUNCT |    .    |        punct         |   .   |   False   | PunctType=Peri |
+|    Same   |    same   |  ADJ  |    JJ   |         amod         |  Xxxx |    True   |   Degree=Pos   |
+|    coin   |    coin   |  NOUN |    NN   |         ROOT         |  xxxx |   False   |  Number=Sing   |
+|     .     |     .     | PUNCT |    .    |        punct         |   .   |   False   | PunctType=Peri |
+| Different | different |  ADJ  |    JJ   |         amod         | Xxxxx |   False   |   Degree=Pos   |
+|   sides   |    side   |  NOUN |   NNS   |         ROOT         |  xxxx |   False   |  Number=Plur   |
+|     .     |     .     | PUNCT |    .    |        punct         |   .   |   False   | PunctType=Peri |
++-----------+-----------+-------+---------+----------------------+-------+-----------+----------------+

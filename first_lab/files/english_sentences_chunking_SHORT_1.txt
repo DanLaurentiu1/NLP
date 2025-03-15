@@ -1,0 +1,1 @@
+['Love', 'and', 'war', '.', 'Same coin', '.', 'Different sides', '.']

@@ -1,0 +1,14 @@
++---------------------------------------------------------------------------------------------------------------------------------------+
+|                                                  John told Bill that he should leave.                                                 |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|  Text  | Lemma  |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                       Morphology                       |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|  John  |  John  | PROPN |   NNP   |        nsubj         |  Xxxx |   False   |                      Number=Sing                       |
+|  told  |  tell  |  VERB |   VBD   |         ROOT         |  xxxx |   False   |                Tense=Past|VerbForm=Fin                 |
+|  Bill  |  Bill  | PROPN |   NNP   |         dobj         |  Xxxx |   False   |                      Number=Sing                       |
+|  that  |  that  | SCONJ |    IN   |         mark         |  xxxx |    True   |                                                        |
+|   he   |   he   |  PRON |   PRP   |        nsubj         |   xx  |    True   | Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs |
+| should | should |  AUX  |    MD   |         aux          |  xxxx |    True   |                      VerbForm=Fin                      |
+| leave  | leave  |  VERB |    VB   |        ccomp         |  xxxx |   False   |                      VerbForm=Inf                      |
+|   .    |   .    | PUNCT |    .    |        punct         |   .   |   False   |                     PunctType=Peri                     |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
