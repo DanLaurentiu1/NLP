@@ -1,0 +1,15 @@
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                ana a Spus ca i-a dat cadoul.                                                                 |
++--------+-------+-------+-----------------+----------------------+-------+-----------+------------------------------------------------------------------------+
+|  Text  | Lemma |  POS  |     POS-Tag     | Syntactic dependency | Shape | Is common |                               Morphology                               |
++--------+-------+-------+-----------------+----------------------+-------+-----------+------------------------------------------------------------------------+
+|  ana   |  ană  |  NOUN |      Ncfsry     |        nsubj         |  xxx  |   False   |            Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing            |
+|   a    |  avea |  AUX  |      Va--3s     |         aux          |   x   |    True   |                          Number=Sing|Person=3                          |
+|  Spus  | Spune |  VERB |     Vmp--sm     |         ROOT         |  Xxxx |   False   |                 Gender=Masc|Number=Sing|VerbForm=Part                  |
+|   ca   |   ca  |  ADV  |        Rc       |         mark         |   xx  |    True   |                                                                        |
+|   i-   |   el  |  PRON | Pp3-sd--y-----w |         iobj         |   x-  |   False   | Case=Dat|Number=Sing|Person=3|PronType=Prs|Strength=Weak|Variant=Short |
+|   a    |  avea |  AUX  |      Va--3s     |         aux          |   x   |    True   |                          Number=Sing|Person=3                          |
+|  dat   |   da  |  VERB |     Vmp--sm     |        advcl         |  xxx  |    True   |                 Gender=Masc|Number=Sing|VerbForm=Part                  |
+| cadoul | cadou |  NOUN |      Ncmsry     |         obj          |  xxxx |   False   |           Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing            |
+|   .    |   .   | PUNCT |      PERIOD     |        punct         |   .   |   False   |                                                                        |
++--------+-------+-------+-----------------+----------------------+-------+-----------+------------------------------------------------------------------------+

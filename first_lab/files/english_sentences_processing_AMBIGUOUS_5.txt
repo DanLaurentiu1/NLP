@@ -1,0 +1,14 @@
++---------------------------------------------------------------------------------------------------------------------------+
+|                                               I like yellow, green and blue.                                              |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+
+|  Text  | Lemma  |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                 Morphology                 |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+
+|   I    |   I    |  PRON |   PRP   |        nsubj         |   X   |    True   | Case=Nom|Number=Sing|Person=1|PronType=Prs |
+|  like  |  like  |  VERB |   VBP   |         ROOT         |  xxxx |   False   |          Tense=Pres|VerbForm=Fin           |
+| yellow | yellow |  ADJ  |    JJ   |         intj         |  xxxx |   False   |                 Degree=Pos                 |
+|   ,    |   ,    | PUNCT |    ,    |        punct         |   ,   |   False   |               PunctType=Comm               |
+| green  | green  |  ADJ  |    JJ   |         conj         |  xxxx |   False   |                 Degree=Pos                 |
+|  and   |  and   | CCONJ |    CC   |          cc          |  xxx  |    True   |                ConjType=Cmp                |
+|  blue  |  blue  |  ADJ  |    JJ   |         conj         |  xxxx |   False   |                 Degree=Pos                 |
+|   .    |   .    | PUNCT |    .    |        punct         |   .   |   False   |               PunctType=Peri               |
++--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+

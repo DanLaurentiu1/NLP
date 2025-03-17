@@ -1,0 +1,1 @@
+['We', 'decided', 'to', 'meet', 'at', 'the bank', 'tomorrow', 'morning', '.']

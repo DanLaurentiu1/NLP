@@ -1,0 +1,13 @@
++--------------------------------------------------------------------------------------------------------------------------------------+
+|                                                    Legile tac în timp de război.                                                     |
++--------+--------+-------+---------+----------------------+-------+-----------+-------------------------------------------------------+
+|  Text  | Lemma  |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                       Morphology                      |
++--------+--------+-------+---------+----------------------+-------+-----------+-------------------------------------------------------+
+| Legile | legile |  NOUN |  Ncfpry |        nsubj         | Xxxxx |   False   |    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur   |
+|  tac   | tăcea  |  AUX  |  Vmip3p |         ROOT         |  xxx  |   False   | Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin |
+|   în   |   în   |  ADP  |   Spsa  |         case         |   xx  |    True   |                 AdpType=Prep|Case=Acc                 |
+|  timp  |  timp  |  NOUN |  Ncms-n |         obl          |  xxxx |    True   |          Definite=Ind|Gender=Masc|Number=Sing         |
+|   de   |   de   |  ADP  |   Spsa  |         case         |   xx  |    True   |                 AdpType=Prep|Case=Acc                 |
+| război | război |  NOUN |  Ncms-n |         nmod         |  xxxx |   False   |          Definite=Ind|Gender=Masc|Number=Sing         |
+|   .    |   .    | PUNCT |  PERIOD |        punct         |   .   |   False   |                                                       |
++--------+--------+-------+---------+----------------------+-------+-----------+-------------------------------------------------------+

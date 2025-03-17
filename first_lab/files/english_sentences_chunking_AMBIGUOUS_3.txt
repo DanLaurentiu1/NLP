@@ -1,0 +1,1 @@
+['As', 'the', 'sun', 'set', ',', 'painting', 'the rose sky', ',', "Lily 'The Rose' Parker", 'stood', 'in', 'her garden', ',', 'holding', 'a single rose', ',', 'and', 'quietly', 'reflected', 'on', 'how', 'how', 'family', 'rose', 'to', 'power', '.']

@@ -23,7 +23,7 @@ class Sentences:
         "ABSTRACT_2": "When the Sovereign pushed against me, I bent like Gold should, with grace, with dignity. But now she cuts at me, and beneath the grace, beneath the aplomb, her knife will strike iron. We make for Mars, and for war.",
         "AMBIGUOUS_1": "John told Bill that he should leave.",
         "AMBIGUOUS_2": "We decided to meet at the bank tomorrow morning.",
-        "AMBIGUOUS_3": "As the sun set, painting the sky in shades of rose, Lily 'The Rose' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power.",
+        "AMBIGUOUS_3": "As the sun set, painting the rose sky, Lily 'The Rose' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power.",
         "AMBIGUOUS_4": "I like yellow green and blue.",
         "AMBIGUOUS_5": "I like yellow, green and blue.",
     }

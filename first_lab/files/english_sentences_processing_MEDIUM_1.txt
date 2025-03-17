@@ -1,0 +1,24 @@
++-------------------------------------------------------------------------------------------------------------------------------------+
+|                                    You meet a man, you know him. You meet a woman, she knows you.                                   |
++-------+-------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|  Text | Lemma |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                       Morphology                       |
++-------+-------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
+|  You  |  you  |  PRON |   PRP   |        nsubj         |  Xxx  |    True   |             Case=Nom|Person=2|PronType=Prs             |
+|  meet |  meet |  VERB |   VBP   |        ccomp         |  xxxx |   False   |                Tense=Pres|VerbForm=Fin                 |
+|   a   |   a   |  DET  |    DT   |         det          |   x   |    True   |               Definite=Ind|PronType=Art                |
+|  man  |  man  |  NOUN |    NN   |         dobj         |  xxx  |   False   |                      Number=Sing                       |
+|   ,   |   ,   | PUNCT |    ,    |        punct         |   ,   |   False   |                     PunctType=Comm                     |
+|  you  |  you  |  PRON |   PRP   |        nsubj         |  xxx  |    True   |             Case=Nom|Person=2|PronType=Prs             |
+|  know |  know |  VERB |   VBP   |         ROOT         |  xxxx |   False   |                Tense=Pres|VerbForm=Fin                 |
+|  him  |   he  |  PRON |   PRP   |         dobj         |  xxx  |    True   | Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs |
+|   .   |   .   | PUNCT |    .    |        punct         |   .   |   False   |                     PunctType=Peri                     |
+|  You  |  you  |  PRON |   PRP   |        nsubj         |  Xxx  |    True   |             Case=Nom|Person=2|PronType=Prs             |
+|  meet |  meet |  VERB |   VBP   |        ccomp         |  xxxx |   False   |                Tense=Pres|VerbForm=Fin                 |
+|   a   |   a   |  DET  |    DT   |         det          |   x   |    True   |               Definite=Ind|PronType=Art                |
+| woman | woman |  NOUN |    NN   |         dobj         |  xxxx |   False   |                      Number=Sing                       |
+|   ,   |   ,   | PUNCT |    ,    |        punct         |   ,   |   False   |                     PunctType=Comm                     |
+|  she  |  she  |  PRON |   PRP   |        nsubj         |  xxx  |    True   | Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs  |
+| knows |  know |  VERB |   VBZ   |         ROOT         |  xxxx |   False   |      Number=Sing|Person=3|Tense=Pres|VerbForm=Fin      |
+|  you  |  you  |  PRON |   PRP   |         dobj         |  xxx  |    True   |             Case=Acc|Person=2|PronType=Prs             |
+|   .   |   .   | PUNCT |    .    |        punct         |   .   |   False   |                     PunctType=Peri                     |
++-------+-------+-------+---------+----------------------+-------+-----------+--------------------------------------------------------+
