@@ -1,1 +1,0 @@
-['He', 'is', 'as', 'he', 'always', 'told', 'me', 'to', 'be', '—', 'a stone', 'amid', 'the waves', ';', 'wet', ',', 'yet', 'unimpressed', 'by', 'all', 'that', 'swirls', 'about', 'him', '.']

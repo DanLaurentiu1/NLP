@@ -1,1 +1,0 @@
-['A man', 'is', 'never', 'too', 'young', 'to', 'kill', ',', 'never', 'too', 'wise', ',', 'never', 'too', 'strong', ',', 'but', 'he', 'can', 'damn', 'well', 'be', 'too', 'rich', '.']

@@ -1,1 +1,0 @@
-['The man', 'with', 'voice', 'and', 'violence', 'controls', 'the world', '.']

@@ -1,1 +1,0 @@
-['You', 'meet', 'a man', ',', 'you', 'know', 'him', '.', 'You', 'meet', 'a woman', ',', 'she', 'knows', 'you', '.']

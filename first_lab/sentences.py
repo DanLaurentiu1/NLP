@@ -9,7 +9,8 @@ class Sentences:
         "ABSTRACT_1": "Tu ești lupul care urlă și mușcă. Eu sunt mustangul care îți mângâie mâna. Oamenii știu că pot lucra cu mine. Cu tine? La naiba, ucide sau fii ucis.",
         "ABSTRACT_2": "Eu sunt scânteia care va aprinde lumile. Eu sunt ciocanul care sparge lanțurile.",
         "AMBIGUOUS_1": "Ana a spus ca i-a dat cadoul.",
-        "AMBIGUOUS_2": "Am văzut bărbatul cu telescopul."
+        "AMBIGUOUS_2": "Am văzut bărbatul cu telescopul.",
+        "AMBIGUOUS_3": "ana a Spus ca i-a dat cadoul."
     }
     english = {
         "SHORT_1": "Love and war. Same coin. Different sides.",
@@ -21,5 +22,8 @@ class Sentences:
         "ABSTRACT_1": "He is as he always told me to be—a stone amid the waves; wet, yet unimpressed by all that swirls about him.",
         "ABSTRACT_2": "When the Sovereign pushed against me, I bent like Gold should, with grace, with dignity. But now she cuts at me, and beneath the grace, beneath the aplomb, her knife will strike iron. We make for Mars, and for war.",
         "AMBIGUOUS_1": "John told Bill that he should leave.",
-        "AMBIGUOUS_2": "We decided to meet at the bank tomorrow morning."
+        "AMBIGUOUS_2": "We decided to meet at the bank tomorrow morning.",
+        "AMBIGUOUS_3": "As the sun set, painting the sky in shades of rose, Lily 'The Rose' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power.",
+        "AMBIGUOUS_4": "I like yellow green and blue.",
+        "AMBIGUOUS_5": "I like yellow, green and blue.",
     }
