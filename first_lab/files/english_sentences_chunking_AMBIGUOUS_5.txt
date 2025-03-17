@@ -1,1 +1,1 @@
-['I', 'like', 'yellow', ',', 'green', 'and', 'blue', '.']
+['I', 'like', 'yellow', 'green', 'and', 'blue', '.']

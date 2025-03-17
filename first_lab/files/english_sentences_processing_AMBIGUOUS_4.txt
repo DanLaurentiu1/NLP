@@ -1,13 +1,43 @@
-+---------------------------------------------------------------------------------------------------------------------------+
-|                                               I like yellow green and blue.                                               |
-+--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+
-|  Text  | Lemma  |  POS  | POS-Tag | Syntactic dependency | Shape | Is common |                 Morphology                 |
-+--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+
-|   I    |   I    |  PRON |   PRP   |        nsubj         |   X   |    True   | Case=Nom|Number=Sing|Person=1|PronType=Prs |
-|  like  |  like  |  VERB |   VBP   |         ROOT         |  xxxx |   False   |          Tense=Pres|VerbForm=Fin           |
-| yellow | yellow |  ADJ  |    JJ   |         amod         |  xxxx |   False   |                 Degree=Pos                 |
-| green  | green  |  ADJ  |    JJ   |         dobj         |  xxxx |   False   |                 Degree=Pos                 |
-|  and   |  and   | CCONJ |    CC   |          cc          |  xxx  |    True   |                ConjType=Cmp                |
-|  blue  |  blue  |  ADJ  |    JJ   |         conj         |  xxxx |   False   |                 Degree=Pos                 |
-|   .    |   .    | PUNCT |    .    |        punct         |   .   |   False   |               PunctType=Peri               |
-+--------+--------+-------+---------+----------------------+-------+-----------+--------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| As the sun set, painting the rose sky, Lily 'The Bloom' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power. |
++------------+----------+--------+----------+--------------------------+--------+------------+----------------------------------------------------------------------+
+|    Text    |  Lemma   |  POS   | POS-Tag  |   Syntactic dependency   | Shape  | Is common  |                              Morphology                              |
++------------+----------+--------+----------+--------------------------+--------+------------+----------------------------------------------------------------------+
+|     As     |    as    | SCONJ  |    IN    |           mark           |   Xx   |    True    |                                                                      |
+|    the     |   the    |  DET   |    DT    |           det            |  xxx   |    True    |                      Definite=Def|PronType=Art                       |
+|    sun     |   sun    |  NOUN  |    NN    |         compound         |  xxx   |   False    |                             Number=Sing                              |
+|    set     |   set    |  NOUN  |    NN    |          advcl           |  xxx   |   False    |                             Number=Sing                              |
+|     ,      |    ,     | PUNCT  |    ,     |          punct           |   ,    |   False    |                            PunctType=Comm                            |
+|  painting  |  paint   |  VERB  |   VBG    |          advcl           |  xxxx  |   False    |                 Aspect=Prog|Tense=Pres|VerbForm=Part                 |
+|    the     |   the    |  DET   |    DT    |           det            |  xxx   |    True    |                      Definite=Def|PronType=Art                       |
+|    rose    |   rose   |  ADJ   |    JJ    |           amod           |  xxxx  |   False    |                              Degree=Pos                              |
+|    sky     |   sky    |  NOUN  |    NN    |           dobj           |  xxx   |   False    |                             Number=Sing                              |
+|     ,      |    ,     | PUNCT  |    ,     |          punct           |   ,    |   False    |                            PunctType=Comm                            |
+|    Lily    |   Lily   | PROPN  |   NNP    |           nmod           |  Xxxx  |   False    |                             Number=Sing                              |
+|     '      |    '     | PROPN  |   NNP    |          punct           |   '    |   False    |                             Number=Sing                              |
+|    The     |   the    |  DET   |    DT    |           det            |  Xxx   |    True    |                      Definite=Def|PronType=Art                       |
+|   Bloom    |  Bloom   | PROPN  |   NNP    |           poss           | Xxxxx  |   False    |                             Number=Sing                              |
+|     '      |    '     | PUNCT  |    ''    |          punct           |   '    |   False    |                     PunctSide=Fin|PunctType=Quot                     |
+|   Parker   |  Parker  | PROPN  |   NNP    |          nsubj           | Xxxxx  |   False    |                             Number=Sing                              |
+|   stood    |  stand   |  VERB  |   VBD    |           ROOT           |  xxxx  |   False    |                       Tense=Past|VerbForm=Fin                        |
+|     in     |    in    |  ADP   |    IN    |           prep           |   xx   |    True    |                                                                      |
+|    her     |   her    |  PRON  |   PRP$   |           poss           |  xxx   |    True    |        Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs         |
+|   garden   |  garden  |  NOUN  |    NN    |           pobj           |  xxxx  |   False    |                             Number=Sing                              |
+|     ,      |    ,     | PUNCT  |    ,     |          punct           |   ,    |   False    |                            PunctType=Comm                            |
+|  holding   |   hold   |  VERB  |   VBG    |          advcl           |  xxxx  |   False    |                 Aspect=Prog|Tense=Pres|VerbForm=Part                 |
+|     a      |    a     |  DET   |    DT    |           det            |   x    |    True    |                      Definite=Ind|PronType=Art                       |
+|   single   |  single  |  ADJ   |    JJ    |           amod           |  xxxx  |   False    |                              Degree=Pos                              |
+|    rose    |   rose   |  NOUN  |    NN    |           dobj           |  xxxx  |   False    |                             Number=Sing                              |
+|     ,      |    ,     | PUNCT  |    ,     |          punct           |   ,    |   False    |                            PunctType=Comm                            |
+|    and     |   and    | CCONJ  |    CC    |            cc            |  xxx   |    True    |                             ConjType=Cmp                             |
+|  quietly   | quietly  |  ADV   |    RB    |          advmod          |  xxxx  |   False    |                                                                      |
+| reflected  | reflect  |  VERB  |   VBD    |           conj           |  xxxx  |   False    |                       Tense=Past|VerbForm=Fin                        |
+|     on     |    on    |  ADP   |    IN    |           prep           |   xx   |    True    |                                                                      |
+|    how     |   how    | SCONJ  |   WRB    |          advmod          |  xxx   |    True    |                                                                      |
+|    how     |   how    | SCONJ  |   WRB    |          advmod          |  xxx   |    True    |                                                                      |
+|   family   |  family  |  NOUN  |    NN    |          nsubj           |  xxxx  |   False    |                             Number=Sing                              |
+|    rose    |   rise   |  VERB  |   VBD    |          pcomp           |  xxxx  |   False    |                       Tense=Past|VerbForm=Fin                        |
+|     to     |    to    |  ADP   |    IN    |           prep           |   xx   |    True    |                                                                      |
+|   power    |  power   |  NOUN  |    NN    |           pobj           |  xxxx  |   False    |                             Number=Sing                              |
+|     .      |    .     | PUNCT  |    .     |          punct           |   .    |   False    |                            PunctType=Peri                            |
++------------+----------+--------+----------+--------------------------+--------+------------+----------------------------------------------------------------------+

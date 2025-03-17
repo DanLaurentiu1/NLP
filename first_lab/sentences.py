@@ -24,6 +24,7 @@ class Sentences:
         "AMBIGUOUS_1": "John told Bill that he should leave.",
         "AMBIGUOUS_2": "We decided to meet at the bank tomorrow morning.",
         "AMBIGUOUS_3": "As the sun set, painting the rose sky, Lily 'The Rose' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power.",
-        "AMBIGUOUS_4": "I like yellow green and blue.",
-        "AMBIGUOUS_5": "I like yellow, green and blue.",
+        "AMBIGUOUS_4": "As the sun set, painting the rose sky, Lily 'The Bloom' Parker stood in her garden, holding a single rose, and quietly reflected on how how family rose to power.",
+        "AMBIGUOUS_5": "I like yellow green and blue.",
+        "AMBIGUOUS_6": "I like yellow, green and blue.",
     }
